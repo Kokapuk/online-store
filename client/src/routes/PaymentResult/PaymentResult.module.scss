@@ -1,0 +1,29 @@
+@import '../../vars.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  &__success {
+    color: $success;
+  }
+
+  &__failure {
+    color: $failure;
+  }
+}
+
+.details {
+  width: 100%;
+  text-align: center;
+}

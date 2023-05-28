@@ -1,0 +1,26 @@
+@import '../../vars.scss';
+
+.wrapper {
+  display: flex;
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  flex-direction: column;
+  border-radius: $b-radius-large;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+}
